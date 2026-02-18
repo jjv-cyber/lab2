@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<robot name="table">
+
+  <material name="brown">
+    <color rgba="0.54 0.27 0.07 1.0"/>
+  </material>
+  <material name="light_grey">
+    <color rgba="0.8 0.8 0.8 1.0"/>
+  </material>
+
+  <link name="world" />
+
+
+  <link name="leg1">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.5" />
+      <geometry>
+        <cylinder radius="0.05" length="1.0"/>
+      </geometry>
+      <material name="light_grey" />
+    </visual>
+  </link>
+
+  <!-- joint from "world" to "base_link"-->
+  <joint name="w00" type="fixed">
+    <origin rpy="0 0 0" xyz=".95 -.05 0" />
+    <parent link="world" />
+    <child link="leg1" />
+  </joint>
+
+
+
+  <link name="leg3">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.5" />
+      <geometry>
+        <cylinder radius="0.05" length="1.0"/>
+      </geometry>
+      <material name="light_grey" />
+    </visual>
+  </link>
+
+  <!-- joint from "world" to "base_link"-->
+  <joint name="w10" type="fixed">
+    <origin rpy="0 0 0" xyz="-.95 -.05 0" />
+    <parent link="world" />
+    <child link="leg3" />
+  </joint>
+
+
+
+  <link name="leg2">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.5" />
+      <geometry>
+        <cylinder radius="0.05" length="1.0"/>
+      </geometry>
+      <material name="light_grey" />
+    </visual>
+  </link>
+
+  <!-- joint from "world" to "base_link"-->
+  <joint name="w01" type="fixed">
+    <origin rpy="0 0 0" xyz=".95 -.95 0" />
+    <parent link="world" />
+    <child link="leg2" />
+  </joint>
+
+
+
+  <link name="leg4">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.5" />
+      <geometry>
+        <cylinder radius="0.05" length="1.0"/>
+      </geometry>
+      <material name="light_grey" />
+    </visual>
+  </link>
+
+  <!-- joint from "world" to "base_link"-->
+  <joint name="w11" type="fixed">
+    <origin rpy="0 0 0" xyz="-.95 -.95 0" />
+    <parent link="world" />
+    <child link="leg4" />
+  </joint>
+
+
+  <link name="table_top">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <box size="2.0 1.0 0.05" />
+      </geometry>
+      <material name="brown" />
+    </visual>
+  </link>
+
+  <joint name="wtable" type="fixed">
+    <origin rpy="0 0 0" xyz="0 -.5 1.0"/>
+    <parent link="world"/>
+    <child link="table_top"/>
+  </joint>
+
+</robot>
