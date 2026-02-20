@@ -1,26 +1,29 @@
 from launch import LaunchDescription
 from launch.substitutions import Command, FindExecutable, PathJoinSubstitution
 from launch_ros.actions import Node
-
+from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
-    
     # Get URDF via xacro
     robot_description_content = Command(
         [
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
-            "rrbot.urdf.xacro",
+            PathJoinSubstitution(
+                [FindPackageShare("ur3e_on_table"), "urdf", "ur3e_on_table.urdf.xacro"]
+            ),
         ]
     )
-
     robot_description = {"robot_description": robot_description_content}
 
-    joint_state_publisher_node = Node(
-        package="joint_state_publisher_gui",
-        executable="joint_state_publisher_gui",
+    rviz_config = PathJoinSubstitution(
+        [FindPackageShare("ur3e_on_table"), "rviz", "rrbot.rviz"]
     )
-    
+
+    joint_state_publisher_node = Node(
+        package="ur3e_on_table",
+        executable="test",
+    )
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",
@@ -33,7 +36,7 @@ def generate_launch_description():
         executable="rviz2",
         name="rviz2",
         output="both",
-        arguments=["-d", "rrbot.rviz"],
+        arguments=["-d", rviz_config],
     )
 
     return LaunchDescription(

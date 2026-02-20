@@ -10,7 +10,7 @@ def generate_launch_description():
         [
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
-            "rrbot.urdf.xacro",
+            "table.urdf.xacro",
         ]
     )
 

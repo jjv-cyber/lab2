@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="table" params="prefix parent *origin">
+    <xacro:property name="table_length" value="0.5" />
+    <xacro:property name="table_width" value="0.5" />
+    <xacro:property name="table_height" value="1.0" />
+    <xacro:property name="table_thickness" value="0.05" />
+    <xacro:property name="leg_length" value="${table_height - table_thickness}" />
+    <xacro:property name="leg_radius" value="0.05" />
+
+
+    <link name="${prefix}_table_top">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <geometry>
+          <box size="${table_length} ${table_width} ${table_thickness}" />
+        </geometry>
+        <material name="brown" />
+      </visual>
+    </link>
+
+    <joint name="${prefix}_wtable" type="fixed">
+      <xacro:insert_block name="origin" />
+      <parent link="${parent}"/>
+      <child link="${prefix}_table_top"/>
+    </joint>
+
+    <link name="${prefix}_leg1">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0.5" />
+        <geometry>
+          <cylinder radius="${leg_radius}" length="${leg_length}"/>
+        </geometry>
+        <material name="light_grey" />
+      </visual>
+    </link>
+
+    <!-- joint from "world" to "base_link"-->
+    <joint name="${prefix}_w00" type="fixed">
+      <origin rpy="0 0 0" xyz="${table_length/2 - leg_radius} ${table_width/2 - leg_radius} -${table_height}" />
+      <parent link="${prefix}_table_top" />
+      <child link="${prefix}_leg1" />
+    </joint>
+
+
+
+    <link name="${prefix}_leg3">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0.5" />
+        <geometry>
+          <cylinder radius="${leg_radius}" length="${leg_length}"/>
+        </geometry>
+        <material name="light_grey" />
+      </visual>
+    </link>
+
+    <!-- joint from "world" to "base_link"-->
+    <joint name="${prefix}_w10" type="fixed">
+      <origin rpy="0 0 0" xyz="-${table_length/2 - leg_radius} ${table_width/2 - leg_radius} -${table_height}" />
+      <parent link="${prefix}_table_top" />
+      <child link="${prefix}_leg3" />
+    </joint>
+
+
+
+    <link name="${prefix}_leg2">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0.5" />
+        <geometry>
+          <cylinder radius="${leg_radius}" length="${leg_length}"/>
+        </geometry>
+        <material name="light_grey" />
+      </visual>
+    </link>
+
+    <!-- joint from "world" to "base_link"-->
+    <joint name="${prefix}_w01" type="fixed">
+      <origin rpy="0 0 0" xyz="${table_length/2 - leg_radius} -${table_width/2 - leg_radius} -${table_height}" />
+      <parent link="${prefix}_table_top" />
+      <child link="${prefix}_leg2" />
+    </joint>
+
+    <link name="${prefix}_leg4">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0.5" />
+        <geometry>
+          <cylinder radius="${leg_radius}" length="${leg_length}"/>
+        </geometry>
+        <material name="light_grey" />
+      </visual>
+    </link>
+
+    <!-- joint from "world" to "base_link"-->
+    <joint name="${prefix}_w11" type="fixed">
+      <origin rpy="0 0 0" xyz="-${table_length/2 - leg_radius} -${table_width/2 - leg_radius} -${table_height}"/>
+      <parent link="${prefix}_table_top" />
+      <child link="${prefix}_leg4" />
+    </joint>
+
+
+
+
+  </xacro:macro>
+
+</robot>

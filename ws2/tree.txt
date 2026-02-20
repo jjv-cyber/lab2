@@ -1,0 +1,1168 @@
+.
+├── build
+│   ├── COLCON_IGNORE
+│   ├── rrbot_description
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_setup_py.sh
+│   │   ├── colcon_command_prefix_setup_py.sh.env
+│   │   ├── config
+│   │   │   └── rrbot_dimensions.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/config/rrbot_dimensions.yaml
+│   │   ├── launch
+│   │   │   └── view_rrbot.launch.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/launch/view_rrbot.launch.py
+│   │   ├── package.xml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/package.xml
+│   │   ├── prefix_override
+│   │   │   ├── __pycache__
+│   │   │   │   └── sitecustomize.cpython-310.pyc
+│   │   │   └── sitecustomize.py
+│   │   ├── resource
+│   │   │   └── rrbot_description -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/resource/rrbot_description
+│   │   ├── rrbot_description -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/rrbot_description
+│   │   ├── rrbot_description.egg-info
+│   │   │   ├── dependency_links.txt
+│   │   │   ├── entry_points.txt
+│   │   │   ├── PKG-INFO
+│   │   │   ├── requires.txt
+│   │   │   ├── SOURCES.txt
+│   │   │   ├── top_level.txt
+│   │   │   └── zip-safe
+│   │   ├── setup.cfg -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/setup.cfg
+│   │   ├── setup.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/setup.py
+│   │   ├── share
+│   │   │   └── rrbot_description
+│   │   │       └── hook
+│   │   │           ├── pythonpath_develop.dsv
+│   │   │           ├── pythonpath_develop.ps1
+│   │   │           └── pythonpath_develop.sh
+│   │   └── urdf
+│   │       ├── materials.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/urdf/materials.xacro
+│   │       ├── rrbot_macro.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/urdf/rrbot_macro.xacro
+│   │       └── rrbot.urdf.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/rrbot_description/urdf/rrbot.urdf.xacro
+│   ├── table_description
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_setup_py.sh
+│   │   ├── colcon_command_prefix_setup_py.sh.env
+│   │   ├── launch
+│   │   │   └── lab.launch.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/launch/lab.launch.py
+│   │   ├── package.xml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/package.xml
+│   │   ├── prefix_override
+│   │   │   ├── __pycache__
+│   │   │   │   └── sitecustomize.cpython-310.pyc
+│   │   │   └── sitecustomize.py
+│   │   ├── resource
+│   │   │   └── table_description -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/resource/table_description
+│   │   ├── rviz
+│   │   │   └── rrbot.rviz -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/rviz/rrbot.rviz
+│   │   ├── setup.cfg -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/setup.cfg
+│   │   ├── setup.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/setup.py
+│   │   ├── share
+│   │   │   └── table_description
+│   │   │       └── hook
+│   │   │           ├── pythonpath_develop.dsv
+│   │   │           ├── pythonpath_develop.ps1
+│   │   │           └── pythonpath_develop.sh
+│   │   ├── table_description -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/table_description
+│   │   ├── table_description.egg-info
+│   │   │   ├── dependency_links.txt
+│   │   │   ├── entry_points.txt
+│   │   │   ├── PKG-INFO
+│   │   │   ├── requires.txt
+│   │   │   ├── SOURCES.txt
+│   │   │   ├── top_level.txt
+│   │   │   └── zip-safe
+│   │   └── urdf
+│   │       ├── lab.urdf.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/urdf/lab.urdf.xacro
+│   │       ├── materials.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/urdf/materials.xacro
+│   │       ├── rrbot_macro.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/urdf/rrbot_macro.xacro
+│   │       ├── rrbot_on_table_macro.urdf.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/urdf/rrbot_on_table_macro.urdf.xacro
+│   │       └── table_macro.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/table_description/urdf/table_macro.xacro
+│   ├── ur3e_on_table
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_setup_py.sh
+│   │   ├── colcon_command_prefix_setup_py.sh.env
+│   │   ├── launch
+│   │   │   └── view_ur3e_on_table.launch.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/launch/view_ur3e_on_table.launch.py
+│   │   ├── package.xml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/package.xml
+│   │   ├── prefix_override
+│   │   │   ├── __pycache__
+│   │   │   │   └── sitecustomize.cpython-310.pyc
+│   │   │   └── sitecustomize.py
+│   │   ├── resource
+│   │   │   └── ur3e_on_table -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/resource/ur3e_on_table
+│   │   ├── setup.cfg -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/setup.cfg
+│   │   ├── setup.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/setup.py
+│   │   ├── share
+│   │   │   └── ur3e_on_table
+│   │   │       └── hook
+│   │   │           ├── pythonpath_develop.dsv
+│   │   │           ├── pythonpath_develop.ps1
+│   │   │           └── pythonpath_develop.sh
+│   │   ├── ur3e_on_table -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/ur3e_on_table
+│   │   ├── ur3e_on_table.egg-info
+│   │   │   ├── dependency_links.txt
+│   │   │   ├── entry_points.txt
+│   │   │   ├── PKG-INFO
+│   │   │   ├── requires.txt
+│   │   │   ├── SOURCES.txt
+│   │   │   ├── top_level.txt
+│   │   │   └── zip-safe
+│   │   └── urdf
+│   │       ├── materials.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/urdf/materials.xacro
+│   │       ├── table_macro.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/urdf/table_macro.xacro
+│   │       ├── ur3e_on_table.urdf.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/urdf/ur3e_on_table.urdf.xacro
+│   │       └── ur3e_on_table.xacro.urdf -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/ur3e_on_table/urdf/ur3e_on_table.xacro.urdf
+│   └── ur_description
+│       ├── ament_cmake_core
+│       │   ├── package.cmake
+│       │   ├── stamps
+│       │   │   ├── ament_prefix_path.sh.stamp
+│       │   │   ├── nameConfig.cmake.in.stamp
+│       │   │   ├── nameConfig-version.cmake.in.stamp
+│       │   │   ├── package_xml_2_cmake.py.stamp
+│       │   │   ├── package.xml.stamp
+│       │   │   ├── path.sh.stamp
+│       │   │   └── templates_2_cmake.py.stamp
+│       │   ├── ur_descriptionConfig.cmake
+│       │   └── ur_descriptionConfig-version.cmake
+│       ├── ament_cmake_environment_hooks
+│       │   ├── ament_prefix_path.dsv
+│       │   ├── local_setup.bash
+│       │   ├── local_setup.dsv
+│       │   ├── local_setup.sh
+│       │   ├── local_setup.zsh
+│       │   ├── package.dsv
+│       │   └── path.dsv
+│       ├── ament_cmake_index
+│       │   └── share
+│       │       └── ament_index
+│       │           └── resource_index
+│       │               ├── package_run_dependencies
+│       │               │   └── ur_description
+│       │               ├── packages
+│       │               │   └── ur_description
+│       │               └── parent_prefix_path
+│       │                   └── ur_description
+│       ├── ament_cmake_package_templates
+│       │   └── templates.cmake
+│       ├── ament_cmake_symlink_install
+│       │   ├── ament_cmake_symlink_install.cmake
+│       │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│       ├── ament_cmake_uninstall_target
+│       │   └── ament_cmake_uninstall_target.cmake
+│       ├── cmake_args.last
+│       ├── CMakeCache.txt
+│       ├── CMakeFiles
+│       │   ├── 3.25.1
+│       │   │   ├── CMakeCCompiler.cmake
+│       │   │   ├── CMakeCXXCompiler.cmake
+│       │   │   ├── CMakeDetermineCompilerABI_C.bin
+│       │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│       │   │   ├── CMakeSystem.cmake
+│       │   │   ├── CompilerIdC
+│       │   │   │   ├── a.out
+│       │   │   │   ├── CMakeCCompilerId.c
+│       │   │   │   └── tmp
+│       │   │   └── CompilerIdCXX
+│       │   │       ├── a.out
+│       │   │       ├── CMakeCXXCompilerId.cpp
+│       │   │       └── tmp
+│       │   ├── cmake.check_cache
+│       │   ├── CMakeDirectoryInformation.cmake
+│       │   ├── CMakeOutput.log
+│       │   ├── CMakeRuleHashes.txt
+│       │   ├── CMakeScratch
+│       │   ├── Makefile2
+│       │   ├── Makefile.cmake
+│       │   ├── pkgRedirects
+│       │   ├── progress.marks
+│       │   ├── TargetDirectories.txt
+│       │   ├── uninstall.dir
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── DependInfo.cmake
+│       │   │   └── progress.make
+│       │   └── ur_description_uninstall.dir
+│       │       ├── build.make
+│       │       ├── cmake_clean.cmake
+│       │       ├── compiler_depend.make
+│       │       ├── compiler_depend.ts
+│       │       ├── DependInfo.cmake
+│       │       └── progress.make
+│       ├── cmake_install.cmake
+│       ├── colcon_build.rc
+│       ├── colcon_command_prefix_build.sh
+│       ├── colcon_command_prefix_build.sh.env
+│       ├── CTestConfiguration.ini
+│       ├── CTestCustom.cmake
+│       ├── CTestTestfile.cmake
+│       ├── install_manifest.txt
+│       ├── Makefile
+│       └── symlink_install_manifest.txt
+├── install
+│   ├── COLCON_IGNORE
+│   ├── local_setup.bash
+│   ├── local_setup.ps1
+│   ├── local_setup.sh
+│   ├── _local_setup_util_ps1.py
+│   ├── _local_setup_util_sh.py
+│   ├── local_setup.zsh
+│   ├── rrbot_description
+│   │   ├── lib
+│   │   │   └── python3.10
+│   │   │       └── site-packages
+│   │   │           └── rrbot-description.egg-link
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       └── packages
+│   │       │           └── rrbot_description -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/rrbot_description/resource/rrbot_description
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── rrbot_description
+│   │       └── rrbot_description
+│   │           ├── config
+│   │           │   └── rrbot_dimensions.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/rrbot_description/config/rrbot_dimensions.yaml
+│   │           ├── hook
+│   │           │   ├── ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.ps1
+│   │           │   ├── ament_prefix_path.sh
+│   │           │   ├── pythonpath.dsv
+│   │           │   ├── pythonpath.ps1
+│   │           │   └── pythonpath.sh
+│   │           ├── launch
+│   │           │   ├── __pycache__
+│   │           │   │   └── view_rrbot.launch.cpython-310.pyc
+│   │           │   └── view_rrbot.launch.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/rrbot_description/launch/view_rrbot.launch.py
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/rrbot_description/package.xml
+│   │           ├── package.zsh
+│   │           ├── rviz
+│   │           │   └── rrbot_default.rviz
+│   │           └── urdf
+│   │               ├── materials.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/rrbot_description/urdf/materials.xacro
+│   │               ├── rrbot_macro.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/rrbot_description/urdf/rrbot_macro.xacro
+│   │               └── rrbot.urdf.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/rrbot_description/urdf/rrbot.urdf.xacro
+│   ├── setup.bash
+│   ├── setup.ps1
+│   ├── setup.sh
+│   ├── setup.zsh
+│   ├── table_description
+│   │   ├── lib
+│   │   │   └── python3.10
+│   │   │       └── site-packages
+│   │   │           └── table-description.egg-link
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       └── packages
+│   │       │           └── table_description -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/table_description/resource/table_description
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── table_description
+│   │       └── table_description
+│   │           ├── config
+│   │           ├── hook
+│   │           │   ├── ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.ps1
+│   │           │   ├── ament_prefix_path.sh
+│   │           │   ├── pythonpath.dsv
+│   │           │   ├── pythonpath.ps1
+│   │           │   └── pythonpath.sh
+│   │           ├── launch
+│   │           │   ├── lab.launch.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/table_description/launch/lab.launch.py
+│   │           │   └── __pycache__
+│   │           │       └── lab.launch.cpython-310.pyc
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/table_description/package.xml
+│   │           ├── package.zsh
+│   │           ├── rviz
+│   │           │   └── rrbot.rviz -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/table_description/rviz/rrbot.rviz
+│   │           └── urdf
+│   │               ├── lab.urdf.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/table_description/urdf/lab.urdf.xacro
+│   │               ├── materials.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/table_description/urdf/materials.xacro
+│   │               ├── rrbot_macro.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/table_description/urdf/rrbot_macro.xacro
+│   │               ├── rrbot_on_table_macro.urdf.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/table_description/urdf/rrbot_on_table_macro.urdf.xacro
+│   │               └── table_macro.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/table_description/urdf/table_macro.xacro
+│   ├── ur3e_on_table
+│   │   ├── lib
+│   │   │   └── python3.10
+│   │   │       └── site-packages
+│   │   │           └── ur3e-on-table.egg-link
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       └── packages
+│   │       │           └── ur3e_on_table -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur3e_on_table/resource/ur3e_on_table
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── ur3e_on_table
+│   │       └── ur3e_on_table
+│   │           ├── config
+│   │           ├── hook
+│   │           │   ├── ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.ps1
+│   │           │   ├── ament_prefix_path.sh
+│   │           │   ├── pythonpath.dsv
+│   │           │   ├── pythonpath.ps1
+│   │           │   └── pythonpath.sh
+│   │           ├── launch
+│   │           │   ├── __pycache__
+│   │           │   │   └── view_ur3e_on_table.launch.cpython-310.pyc
+│   │           │   └── view_ur3e_on_table.launch.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur3e_on_table/launch/view_ur3e_on_table.launch.py
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur3e_on_table/package.xml
+│   │           ├── package.zsh
+│   │           ├── rviz
+│   │           └── urdf
+│   │               └── ur3e_on_table.xacro.urdf -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur3e_on_table/urdf/ur3e_on_table.xacro.urdf
+│   └── ur_description
+│       └── share
+│           ├── ament_index
+│           │   └── resource_index
+│           │       ├── package_run_dependencies
+│           │       │   └── ur_description -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur_description
+│           │       ├── packages
+│           │       │   └── ur_description -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_index/share/ament_index/resource_index/packages/ur_description
+│           │       └── parent_prefix_path
+│           │           └── ur_description -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ur_description
+│           ├── colcon-core
+│           │   └── packages
+│           │       └── ur_description
+│           └── ur_description
+│               ├── cmake
+│               │   ├── ur_descriptionConfig.cmake -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_core/ur_descriptionConfig.cmake
+│               │   └── ur_descriptionConfig-version.cmake -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_core/ur_descriptionConfig-version.cmake
+│               ├── config
+│               │   ├── initial_positions.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/initial_positions.yaml
+│               │   ├── ur10
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur10/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur10/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur10/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur10/visual_parameters.yaml
+│               │   ├── ur10e
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur10e/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur10e/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur10e/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur10e/visual_parameters.yaml
+│               │   ├── ur12e
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur12e/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur12e/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur12e/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur12e/visual_parameters.yaml
+│               │   ├── ur15
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur15/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur15/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur15/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur15/visual_parameters.yaml
+│               │   ├── ur16e
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur16e/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur16e/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur16e/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur16e/visual_parameters.yaml
+│               │   ├── ur18
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur18/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur18/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur18/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur18/visual_parameters.yaml
+│               │   ├── ur20
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur20/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur20/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur20/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur20/visual_parameters.yaml
+│               │   ├── ur3
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur3/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur3/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur3/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur3/visual_parameters.yaml
+│               │   ├── ur30
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur30/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur30/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur30/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur30/visual_parameters.yaml
+│               │   ├── ur3e
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur3e/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur3e/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur3e/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur3e/visual_parameters.yaml
+│               │   ├── ur5
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur5/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur5/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur5/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur5/visual_parameters.yaml
+│               │   ├── ur5e
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur5e/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur5e/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur5e/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur5e/visual_parameters.yaml
+│               │   ├── ur7e
+│               │   │   ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur7e/default_kinematics.yaml
+│               │   │   ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur7e/joint_limits.yaml
+│               │   │   ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur7e/physical_parameters.yaml
+│               │   │   └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur7e/visual_parameters.yaml
+│               │   └── ur8long
+│               │       ├── default_kinematics.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur8long/default_kinematics.yaml
+│               │       ├── joint_limits.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur8long/joint_limits.yaml
+│               │       ├── physical_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur8long/physical_parameters.yaml
+│               │       └── visual_parameters.yaml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/config/ur8long/visual_parameters.yaml
+│               ├── environment
+│               │   ├── ament_prefix_path.dsv -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│               │   ├── ament_prefix_path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│               │   ├── path.dsv -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_environment_hooks/path.dsv
+│               │   └── path.sh -> /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│               ├── hook
+│               │   ├── cmake_prefix_path.dsv
+│               │   ├── cmake_prefix_path.ps1
+│               │   └── cmake_prefix_path.sh
+│               ├── launch
+│               │   ├── __pycache__
+│               │   │   └── view_ur.launch.cpython-310.pyc
+│               │   └── view_ur.launch.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/launch/view_ur.launch.py
+│               ├── local_setup.bash -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_environment_hooks/local_setup.bash
+│               ├── local_setup.dsv -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_environment_hooks/local_setup.dsv
+│               ├── local_setup.sh -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_environment_hooks/local_setup.sh
+│               ├── local_setup.zsh -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/build/ur_description/ament_cmake_environment_hooks/local_setup.zsh
+│               ├── meshes
+│               │   ├── ur10
+│               │   │   ├── collision
+│               │   │   │   ├── base.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/collision/base.stl
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/collision/forearm.stl
+│               │   │   │   ├── shoulder.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/collision/shoulder.stl
+│               │   │   │   ├── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/collision/upperarm.stl
+│               │   │   │   ├── wrist1.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/collision/wrist1.stl
+│               │   │   │   ├── wrist2.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/collision/wrist2.stl
+│               │   │   │   └── wrist3.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/collision/wrist3.stl
+│               │   │   └── visual
+│               │   │       ├── base.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/visual/base.dae
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/visual/forearm.dae
+│               │   │       ├── shoulder.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/visual/shoulder.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/visual/upperarm.dae
+│               │   │       ├── wrist1.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/visual/wrist1.dae
+│               │   │       ├── wrist2.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/visual/wrist2.dae
+│               │   │       └── wrist3.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10/visual/wrist3.dae
+│               │   ├── ur10e
+│               │   │   ├── collision
+│               │   │   │   ├── base.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/collision/base.stl
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/collision/forearm.stl
+│               │   │   │   ├── shoulder.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/collision/shoulder.stl
+│               │   │   │   ├── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/collision/upperarm.stl
+│               │   │   │   ├── wrist1.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/collision/wrist1.stl
+│               │   │   │   ├── wrist2.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/collision/wrist2.stl
+│               │   │   │   └── wrist3.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/collision/wrist3.stl
+│               │   │   └── visual
+│               │   │       ├── base.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/visual/base.dae
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/visual/forearm.dae
+│               │   │       ├── shoulder.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/visual/shoulder.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/visual/upperarm.dae
+│               │   │       ├── wrist1.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/visual/wrist1.dae
+│               │   │       ├── wrist2.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/visual/wrist2.dae
+│               │   │       └── wrist3.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur10e/visual/wrist3.dae
+│               │   ├── ur15
+│               │   │   ├── collision
+│               │   │   │   ├── base.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/collision/base.stl
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/collision/forearm.stl
+│               │   │   │   ├── shoulder.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/collision/shoulder.stl
+│               │   │   │   ├── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/collision/upperarm.stl
+│               │   │   │   ├── wrist1.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/collision/wrist1.stl
+│               │   │   │   ├── wrist2.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/collision/wrist2.stl
+│               │   │   │   └── wrist3.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/collision/wrist3.stl
+│               │   │   ├── LICENSE.txt -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/LICENSE.txt
+│               │   │   └── visual
+│               │   │       ├── base.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/visual/base.dae
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/visual/forearm.dae
+│               │   │       ├── shoulder.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/visual/shoulder.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/visual/upperarm.dae
+│               │   │       ├── UR15_DIFF_8bit_2K.jpg -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg
+│               │   │       ├── wrist1.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/visual/wrist1.dae
+│               │   │       ├── wrist2.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/visual/wrist2.dae
+│               │   │       └── wrist3.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur15/visual/wrist3.dae
+│               │   ├── ur16e
+│               │   │   ├── collision
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur16e/collision/forearm.stl
+│               │   │   │   └── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur16e/collision/upperarm.stl
+│               │   │   └── visual
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur16e/visual/forearm.dae
+│               │   │       └── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur16e/visual/upperarm.dae
+│               │   ├── ur18
+│               │   │   ├── collision
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur18/collision/forearm.stl
+│               │   │   │   └── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur18/collision/upperarm.stl
+│               │   │   ├── LICENSE.txt -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur18/LICENSE.txt
+│               │   │   └── visual
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur18/visual/forearm.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur18/visual/upperarm.dae
+│               │   │       └── UR18_DIFF_8bit_2K.jpg -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur18/visual/UR18_DIFF_8bit_2K.jpg
+│               │   ├── ur20
+│               │   │   ├── collision
+│               │   │   │   ├── base.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/collision/base.stl
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/collision/forearm.stl
+│               │   │   │   ├── shoulder.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/collision/shoulder.stl
+│               │   │   │   ├── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/collision/upperarm.stl
+│               │   │   │   ├── wrist1.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/collision/wrist1.stl
+│               │   │   │   ├── wrist2.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/collision/wrist2.stl
+│               │   │   │   └── wrist3.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/collision/wrist3.stl
+│               │   │   ├── LICENSE.txt -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/LICENSE.txt
+│               │   │   └── visual
+│               │   │       ├── base.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/visual/base.dae
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/visual/forearm.dae
+│               │   │       ├── shoulder.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/visual/shoulder.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/visual/upperarm.dae
+│               │   │       ├── UR20_DIFF_8bit_2K.png -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+│               │   │       ├── wrist1.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/visual/wrist1.dae
+│               │   │       ├── wrist2.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/visual/wrist2.dae
+│               │   │       └── wrist3.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur20/visual/wrist3.dae
+│               │   ├── ur3
+│               │   │   ├── collision
+│               │   │   │   ├── base.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/collision/base.stl
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/collision/forearm.stl
+│               │   │   │   ├── shoulder.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/collision/shoulder.stl
+│               │   │   │   ├── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/collision/upperarm.stl
+│               │   │   │   ├── wrist1.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/collision/wrist1.stl
+│               │   │   │   ├── wrist2.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/collision/wrist2.stl
+│               │   │   │   └── wrist3.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/collision/wrist3.stl
+│               │   │   └── visual
+│               │   │       ├── base.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/visual/base.dae
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/visual/forearm.dae
+│               │   │       ├── shoulder.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/visual/shoulder.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/visual/upperarm.dae
+│               │   │       ├── wrist1.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/visual/wrist1.dae
+│               │   │       ├── wrist2.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/visual/wrist2.dae
+│               │   │       └── wrist3.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3/visual/wrist3.dae
+│               │   ├── ur30
+│               │   │   ├── collision
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur30/collision/forearm.stl
+│               │   │   │   └── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur30/collision/upperarm.stl
+│               │   │   ├── LICENSE.txt -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur30/LICENSE.txt
+│               │   │   └── visual
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur30/visual/forearm.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur30/visual/upperarm.dae
+│               │   │       └── UR30_DIFF_8bit_2K.png -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+│               │   ├── ur3e
+│               │   │   ├── collision
+│               │   │   │   ├── base.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/collision/base.stl
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/collision/forearm.stl
+│               │   │   │   ├── shoulder.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/collision/shoulder.stl
+│               │   │   │   ├── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/collision/upperarm.stl
+│               │   │   │   ├── wrist1.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/collision/wrist1.stl
+│               │   │   │   ├── wrist2.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/collision/wrist2.stl
+│               │   │   │   └── wrist3.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/collision/wrist3.stl
+│               │   │   └── visual
+│               │   │       ├── base.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/visual/base.dae
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/visual/forearm.dae
+│               │   │       ├── shoulder.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/visual/shoulder.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/visual/upperarm.dae
+│               │   │       ├── wrist1.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/visual/wrist1.dae
+│               │   │       ├── wrist2.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/visual/wrist2.dae
+│               │   │       └── wrist3.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur3e/visual/wrist3.dae
+│               │   ├── ur5
+│               │   │   ├── collision
+│               │   │   │   ├── base.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/collision/base.stl
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/collision/forearm.stl
+│               │   │   │   ├── shoulder.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/collision/shoulder.stl
+│               │   │   │   ├── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/collision/upperarm.stl
+│               │   │   │   ├── wrist1.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/collision/wrist1.stl
+│               │   │   │   ├── wrist2.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/collision/wrist2.stl
+│               │   │   │   └── wrist3.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/collision/wrist3.stl
+│               │   │   └── visual
+│               │   │       ├── base.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/visual/base.dae
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/visual/forearm.dae
+│               │   │       ├── shoulder.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/visual/shoulder.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/visual/upperarm.dae
+│               │   │       ├── wrist1.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/visual/wrist1.dae
+│               │   │       ├── wrist2.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/visual/wrist2.dae
+│               │   │       └── wrist3.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5/visual/wrist3.dae
+│               │   ├── ur5e
+│               │   │   ├── collision
+│               │   │   │   ├── base.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/collision/base.stl
+│               │   │   │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/collision/forearm.stl
+│               │   │   │   ├── shoulder.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/collision/shoulder.stl
+│               │   │   │   ├── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/collision/upperarm.stl
+│               │   │   │   ├── wrist1.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/collision/wrist1.stl
+│               │   │   │   ├── wrist2.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/collision/wrist2.stl
+│               │   │   │   └── wrist3.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/collision/wrist3.stl
+│               │   │   └── visual
+│               │   │       ├── base.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/visual/base.dae
+│               │   │       ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/visual/forearm.dae
+│               │   │       ├── shoulder.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/visual/shoulder.dae
+│               │   │       ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/visual/upperarm.dae
+│               │   │       ├── wrist1.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/visual/wrist1.dae
+│               │   │       ├── wrist2.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/visual/wrist2.dae
+│               │   │       └── wrist3.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur5e/visual/wrist3.dae
+│               │   └── ur8long
+│               │       ├── collision
+│               │       │   ├── forearm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur8long/collision/forearm.stl
+│               │       │   └── upperarm.stl -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur8long/collision/upperarm.stl
+│               │       ├── LICENSE.txt -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur8long/LICENSE.txt
+│               │       └── visual
+│               │           ├── forearm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur8long/visual/forearm.dae
+│               │           ├── upperarm.dae -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur8long/visual/upperarm.dae
+│               │           └── UR8Long_DIFF_8bit_2K.jpg -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/meshes/ur8long/visual/UR8Long_DIFF_8bit_2K.jpg
+│               ├── package.bash
+│               ├── package.dsv
+│               ├── package.ps1
+│               ├── package.sh
+│               ├── package.xml -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/package.xml
+│               ├── package.zsh
+│               ├── rviz
+│               │   └── view_robot.rviz -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/rviz/view_robot.rviz
+│               ├── test
+│               │   ├── test_ur_urdf_xacro.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/test/test_ur_urdf_xacro.py
+│               │   └── test_view_ur_launch.py -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/test/test_view_ur_launch.py
+│               └── urdf
+│                   ├── inc
+│                   │   ├── ur_common.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/urdf/inc/ur_common.xacro
+│                   │   └── ur_transmissions.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/urdf/inc/ur_transmissions.xacro
+│                   ├── ur_macro.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/urdf/ur_macro.xacro
+│                   ├── ur.ros2_control.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/urdf/ur.ros2_control.xacro
+│                   └── ur.urdf.xacro -> /home/jvandave/Downloads/University/ece569-spring2026/Lab2/ws2/src/Universal_Robots_ROS2_Description/urdf/ur.urdf.xacro
+├── log
+│   ├── build_2026-02-19_16-42-25
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   └── rrbot_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-02-19_20-45-41
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── rrbot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── table_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-02-19_20-55-47
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── rrbot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── table_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-02-19_21-02-50
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── rrbot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── table_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-02-19_21-26-39
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── rrbot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── table_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-02-19_21-37-46
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── rrbot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── table_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── ur_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-02-19_21-59-55
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── rrbot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── table_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── ur3e_on_table
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── ur_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-02-19_22-04-18
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── rrbot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── table_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── ur3e_on_table
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── ur_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-02-19_22-06-02
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── rrbot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── table_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── ur3e_on_table
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── ur_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── build_2026-02-19_22-07-50
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── rrbot_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── table_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── ur3e_on_table
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── ur_description
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── COLCON_IGNORE
+│   ├── latest -> latest_build
+│   └── latest_build -> build_2026-02-19_22-07-50
+├── src
+│   ├── rrbot_description
+│   │   ├── config
+│   │   │   └── rrbot_dimensions.yaml
+│   │   ├── launch
+│   │   │   └── view_rrbot.launch.py
+│   │   ├── package.xml
+│   │   ├── resource
+│   │   │   └── rrbot_description
+│   │   ├── rrbot_description
+│   │   │   └── __init__.py
+│   │   ├── rviz
+│   │   ├── setup.cfg
+│   │   ├── setup.py
+│   │   ├── test
+│   │   │   ├── test_copyright.py
+│   │   │   ├── test_flake8.py
+│   │   │   └── test_pep257.py
+│   │   └── urdf
+│   │       ├── materials.xacro
+│   │       ├── rrbot_macro.xacro
+│   │       └── rrbot.urdf.xacro
+│   ├── table_description
+│   │   ├── config
+│   │   ├── launch
+│   │   │   └── lab.launch.py
+│   │   ├── package.xml
+│   │   ├── resource
+│   │   │   └── table_description
+│   │   ├── rviz
+│   │   │   └── rrbot.rviz
+│   │   ├── setup.cfg
+│   │   ├── setup.py
+│   │   ├── table_description
+│   │   │   └── __init__.py
+│   │   ├── test
+│   │   │   ├── test_copyright.py
+│   │   │   ├── test_flake8.py
+│   │   │   └── test_pep257.py
+│   │   └── urdf
+│   │       ├── lab.urdf.xacro
+│   │       ├── materials.xacro
+│   │       ├── rrbot_macro.xacro
+│   │       ├── rrbot_on_table_macro.urdf.xacro
+│   │       └── table_macro.xacro
+│   └── Universal_Robots_ROS2_Description
+│       ├── CHANGELOG.rst
+│       ├── ci_status.md
+│       ├── CMakeLists.txt
+│       ├── config
+│       │   ├── initial_positions.yaml
+│       │   ├── ur10
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur10e
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur12e
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur15
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur16e
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur18
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur20
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur3
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur30
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur3e
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur5
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur5e
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   ├── ur7e
+│       │   │   ├── default_kinematics.yaml
+│       │   │   ├── joint_limits.yaml
+│       │   │   ├── physical_parameters.yaml
+│       │   │   └── visual_parameters.yaml
+│       │   └── ur8long
+│       │       ├── default_kinematics.yaml
+│       │       ├── joint_limits.yaml
+│       │       ├── physical_parameters.yaml
+│       │       └── visual_parameters.yaml
+│       ├── CONTRIBUTING.md
+│       ├── doc
+│       │   ├── structure.drawio
+│       │   └── structure.svg
+│       ├── launch
+│       │   └── view_ur.launch.py
+│       ├── LICENSE
+│       ├── meshes
+│       │   ├── ur10
+│       │   │   ├── collision
+│       │   │   │   ├── base.stl
+│       │   │   │   ├── forearm.stl
+│       │   │   │   ├── shoulder.stl
+│       │   │   │   ├── upperarm.stl
+│       │   │   │   ├── wrist1.stl
+│       │   │   │   ├── wrist2.stl
+│       │   │   │   └── wrist3.stl
+│       │   │   └── visual
+│       │   │       ├── base.dae
+│       │   │       ├── forearm.dae
+│       │   │       ├── shoulder.dae
+│       │   │       ├── upperarm.dae
+│       │   │       ├── wrist1.dae
+│       │   │       ├── wrist2.dae
+│       │   │       └── wrist3.dae
+│       │   ├── ur10e
+│       │   │   ├── collision
+│       │   │   │   ├── base.stl
+│       │   │   │   ├── forearm.stl
+│       │   │   │   ├── shoulder.stl
+│       │   │   │   ├── upperarm.stl
+│       │   │   │   ├── wrist1.stl
+│       │   │   │   ├── wrist2.stl
+│       │   │   │   └── wrist3.stl
+│       │   │   └── visual
+│       │   │       ├── base.dae
+│       │   │       ├── forearm.dae
+│       │   │       ├── shoulder.dae
+│       │   │       ├── upperarm.dae
+│       │   │       ├── wrist1.dae
+│       │   │       ├── wrist2.dae
+│       │   │       └── wrist3.dae
+│       │   ├── ur15
+│       │   │   ├── collision
+│       │   │   │   ├── base.stl
+│       │   │   │   ├── forearm.stl
+│       │   │   │   ├── shoulder.stl
+│       │   │   │   ├── upperarm.stl
+│       │   │   │   ├── wrist1.stl
+│       │   │   │   ├── wrist2.stl
+│       │   │   │   └── wrist3.stl
+│       │   │   ├── LICENSE.txt
+│       │   │   └── visual
+│       │   │       ├── base.dae
+│       │   │       ├── forearm.dae
+│       │   │       ├── shoulder.dae
+│       │   │       ├── upperarm.dae
+│       │   │       ├── UR15_DIFF_8bit_2K.jpg
+│       │   │       ├── wrist1.dae
+│       │   │       ├── wrist2.dae
+│       │   │       └── wrist3.dae
+│       │   ├── ur16e
+│       │   │   ├── collision
+│       │   │   │   ├── forearm.stl
+│       │   │   │   └── upperarm.stl
+│       │   │   └── visual
+│       │   │       ├── forearm.dae
+│       │   │       └── upperarm.dae
+│       │   ├── ur18
+│       │   │   ├── collision
+│       │   │   │   ├── forearm.stl
+│       │   │   │   └── upperarm.stl
+│       │   │   ├── LICENSE.txt
+│       │   │   └── visual
+│       │   │       ├── forearm.dae
+│       │   │       ├── upperarm.dae
+│       │   │       └── UR18_DIFF_8bit_2K.jpg
+│       │   ├── ur20
+│       │   │   ├── collision
+│       │   │   │   ├── base.stl
+│       │   │   │   ├── forearm.stl
+│       │   │   │   ├── shoulder.stl
+│       │   │   │   ├── upperarm.stl
+│       │   │   │   ├── wrist1.stl
+│       │   │   │   ├── wrist2.stl
+│       │   │   │   └── wrist3.stl
+│       │   │   ├── LICENSE.txt
+│       │   │   └── visual
+│       │   │       ├── base.dae
+│       │   │       ├── forearm.dae
+│       │   │       ├── shoulder.dae
+│       │   │       ├── upperarm.dae
+│       │   │       ├── UR20_DIFF_8bit_2K.png
+│       │   │       ├── wrist1.dae
+│       │   │       ├── wrist2.dae
+│       │   │       └── wrist3.dae
+│       │   ├── ur3
+│       │   │   ├── collision
+│       │   │   │   ├── base.stl
+│       │   │   │   ├── forearm.stl
+│       │   │   │   ├── shoulder.stl
+│       │   │   │   ├── upperarm.stl
+│       │   │   │   ├── wrist1.stl
+│       │   │   │   ├── wrist2.stl
+│       │   │   │   └── wrist3.stl
+│       │   │   └── visual
+│       │   │       ├── base.dae
+│       │   │       ├── forearm.dae
+│       │   │       ├── shoulder.dae
+│       │   │       ├── upperarm.dae
+│       │   │       ├── wrist1.dae
+│       │   │       ├── wrist2.dae
+│       │   │       └── wrist3.dae
+│       │   ├── ur30
+│       │   │   ├── collision
+│       │   │   │   ├── forearm.stl
+│       │   │   │   └── upperarm.stl
+│       │   │   ├── LICENSE.txt
+│       │   │   └── visual
+│       │   │       ├── forearm.dae
+│       │   │       ├── upperarm.dae
+│       │   │       └── UR30_DIFF_8bit_2K.png
+│       │   ├── ur3e
+│       │   │   ├── collision
+│       │   │   │   ├── base.stl
+│       │   │   │   ├── forearm.stl
+│       │   │   │   ├── shoulder.stl
+│       │   │   │   ├── upperarm.stl
+│       │   │   │   ├── wrist1.stl
+│       │   │   │   ├── wrist2.stl
+│       │   │   │   └── wrist3.stl
+│       │   │   └── visual
+│       │   │       ├── base.dae
+│       │   │       ├── forearm.dae
+│       │   │       ├── shoulder.dae
+│       │   │       ├── upperarm.dae
+│       │   │       ├── wrist1.dae
+│       │   │       ├── wrist2.dae
+│       │   │       └── wrist3.dae
+│       │   ├── ur5
+│       │   │   ├── collision
+│       │   │   │   ├── base.stl
+│       │   │   │   ├── forearm.stl
+│       │   │   │   ├── shoulder.stl
+│       │   │   │   ├── upperarm.stl
+│       │   │   │   ├── wrist1.stl
+│       │   │   │   ├── wrist2.stl
+│       │   │   │   └── wrist3.stl
+│       │   │   └── visual
+│       │   │       ├── base.dae
+│       │   │       ├── forearm.dae
+│       │   │       ├── shoulder.dae
+│       │   │       ├── upperarm.dae
+│       │   │       ├── wrist1.dae
+│       │   │       ├── wrist2.dae
+│       │   │       └── wrist3.dae
+│       │   ├── ur5e
+│       │   │   ├── collision
+│       │   │   │   ├── base.stl
+│       │   │   │   ├── forearm.stl
+│       │   │   │   ├── shoulder.stl
+│       │   │   │   ├── upperarm.stl
+│       │   │   │   ├── wrist1.stl
+│       │   │   │   ├── wrist2.stl
+│       │   │   │   └── wrist3.stl
+│       │   │   └── visual
+│       │   │       ├── base.dae
+│       │   │       ├── forearm.dae
+│       │   │       ├── shoulder.dae
+│       │   │       ├── upperarm.dae
+│       │   │       ├── wrist1.dae
+│       │   │       ├── wrist2.dae
+│       │   │       └── wrist3.dae
+│       │   └── ur8long
+│       │       ├── collision
+│       │       │   ├── forearm.stl
+│       │       │   └── upperarm.stl
+│       │       ├── LICENSE.txt
+│       │       └── visual
+│       │           ├── forearm.dae
+│       │           ├── upperarm.dae
+│       │           └── UR8Long_DIFF_8bit_2K.jpg
+│       ├── model.pdf
+│       ├── package.xml
+│       ├── README.md
+│       ├── rviz
+│       │   └── view_robot.rviz
+│       ├── test
+│       │   ├── test_ur_urdf_xacro.py
+│       │   └── test_view_ur_launch.py
+│       └── urdf
+│           ├── inc
+│           │   ├── ur_common.xacro
+│           │   └── ur_transmissions.xacro
+│           ├── ur_macro.xacro
+│           ├── ur.ros2_control.xacro
+│           └── ur.urdf.xacro
+├── tree.txt
+└── ur3e_on_table
+    ├── launch
+    │   └── view_ur3e_on_table.launch.py
+    ├── package.xml
+    ├── resource
+    │   └── ur3e_on_table
+    ├── rviz
+    ├── setup.cfg
+    ├── setup.py
+    ├── test
+    │   ├── test_copyright.py
+    │   ├── test_flake8.py
+    │   └── test_pep257.py
+    ├── ur3e_on_table
+    │   └── __init__.py
+    └── urdf
+        ├── materials.xacro
+        ├── table_macro.xacro
+        └── ur3e_on_table.urdf.xacro
+
+307 directories, 858 files

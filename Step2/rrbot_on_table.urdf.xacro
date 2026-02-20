@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot xmlns:xacro="http://wiki.ros.org/xacro" name="table">
-
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="lab_table">
+  <xacro:macro name="table" params="prefix parent *origin">
     <xacro:include filename="materials.xacro" />
     <xacro:include filename="table_macro.xacro" />
     <xacro:include filename="rrbot_macro.xacro" />
 
     <link name="world" />
 
-    <xacro:table prefix="table_" parent="world">
+    <xacro:table prefix="table" parent="world">
         <origin xyz="0 0 1" rpy="0 0 0" />
     </xacro:table>
 
-    <xacro:rrbot prefix="rrbot_" parent="table_top">
+    <xacro:rrbot prefix="rrbot" parent="table_top">
         <origin xyz="0 0 0" rpy="0 0 0" />
     </xacro:rrbot>
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <xacro:macro name="lab_table" params="prefix parent *origin">
+
+    <xacro:table prefix="${prefix}_table" parent="${parent}">
+      <xacro:insert_block name="origin" />
+    </xacro:table>
+
+    <xacro:rrbot prefix="${prefix}_rrbot" parent="${prefix}_table_table_top">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+    </xacro:rrbot>
+
+  </xacro:macro>
+</robot>

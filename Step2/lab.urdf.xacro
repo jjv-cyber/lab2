@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="lab">
+
+    <xacro:include filename="rrbot_on_table_macro.urdf.xacro" />
+    <xacro:include filename="materials.xacro" />
+    <xacro:include filename="table_macro.xacro" />
+    <xacro:include filename="rrbot_macro.xacro" />
+    <link name="world" />
+
+    <xacro:lab_table prefix="t1" parent="world">
+        <origin xyz="2 0 0" rpy="0 0 0" />
+    </xacro:lab_table>
+
+    <xacro:lab_table prefix="t2" parent="world">
+        <origin xyz="0 2 0" rpy="0 0 0" />
+    </xacro:lab_table>
+
+    <xacro:lab_table prefix="t3" parent="world">
+        <origin xyz="2 2 0" rpy="0 0 0" />
+    </xacro:lab_table>
+
+    <xacro:lab_table prefix="t4" parent="world">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </xacro:lab_table>
+
+    <xacro:lab_table prefix="t5" parent="world">
+        <origin xyz="-2 2 0" rpy="0 0 0" />
+    </xacro:lab_table>
+
+    <xacro:lab_table prefix="t6" parent="world">
+        <origin xyz="-2 0 0" rpy="0 0 0" />
+    </xacro:lab_table>
+
+    <xacro:lab_table prefix="t7" parent="world">
+        <origin xyz="-2 -2 0" rpy="0 0 0" />
+    </xacro:lab_table>
+
+    <xacro:lab_table prefix="t8" parent="world">
+        <origin xyz="0 -2 0" rpy="0 0 0" />
+    </xacro:lab_table>
+
+    <xacro:lab_table prefix="t9" parent="world">
+        <origin xyz="2 -2 0" rpy="0 0 0" />
+    </xacro:lab_table>
+</robot>

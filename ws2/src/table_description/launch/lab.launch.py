@@ -1,16 +1,22 @@
 from launch import LaunchDescription
 from launch.substitutions import Command, FindExecutable, PathJoinSubstitution
 from launch_ros.actions import Node
-
+from ament_index_python.packages import get_package_share_directory
+import os
 
 def generate_launch_description():
-    
+
+    pkg_share = get_package_share_directory('table_description')
+
+    xacro_file = os.path.join(pkg_share, 'urdf', 'lab.urdf.xacro')
+    rviz_config = os.path.join(pkg_share, 'rviz', 'rrbot.rviz')
+
     # Get URDF via xacro
     robot_description_content = Command(
         [
             PathJoinSubstitution([FindExecutable(name="xacro")]),
             " ",
-            "rrbot.urdf.xacro",
+            xacro_file,
         ]
     )
 
@@ -33,7 +39,7 @@ def generate_launch_description():
         executable="rviz2",
         name="rviz2",
         output="both",
-        arguments=["-d", "rrbot.rviz"],
+        arguments=["-d", rviz_config],
     )
 
     return LaunchDescription(

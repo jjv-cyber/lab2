@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="table">
+
+  <!-- copy and paste the contents of "rrbot_macro.xacro" here -->
+  <xacro:include filename="materials.xacro" />
+  <xacro:include filename="table_macro.xacro"/>
+
+  <link name="world" />
+
+  <xacro:rrbot prefix="t1" parent="world">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </xacro:rrbot>
+
+</robot>
